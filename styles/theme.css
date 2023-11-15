@@ -1,12 +1,19 @@
-@font-face {
+/*@font-face {
 	font-family: 'Courgette';
 	src: url('../fonts/Courgette-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}*/
+@font-face {
+	font-family: 'Courgette';
+	src: url('../fonts/Courgette-Regular.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
 html {
     font-size: 18px;
     color: #444;
+    font-family: 'Source Code Pro', sans-serif;
 }
 body {
     max-width: 980px;
@@ -16,7 +23,7 @@ body {
 }
 h1, h2, h3 {
     text-align:center;
-    font-family: Courgette, sans-serif;
+    font-family: 'Courgette', sans-serif;
 }
 h1 {
     font-size: 2.22rem;
@@ -33,16 +40,13 @@ h3 {
 .menu {
     font-size: 1.11rem;
     color: #003884;
-    font-family: Courgette, sans-serif;
+    font-family: 'Courgette', sans-serif;
 }
 .menu li a {
     text-decoration: none;
 }
 .menu li a:visited {
     color: #003884;
-}
-blockquote p:after {
-    content: " ";
 }
 .citation {
     font-size: 1.39rem;
@@ -85,23 +89,24 @@ em {
 }
 .drapeau {
     float:right;
-    margin-left: 1em;
+    /*margin-left: 1em;*/
 }
 .statue {
     float:left;
-    margin-right: 1em;
+    /*margin-right: 1em;*/
 }
 .bridge {
     float:right;
-    margin-left: 1em;
+    /*margin-left: 1em;*/
 }
 .taxi {
     float:left;
-    margin-right: 1em;
+    /*margin-right: 1em;*/
 }
 /*********** RESEAUX SOCIAUX ***********/
 .fa-brands {
     color: #003884;
-    /*width: 1.67rem;
-    height: 1.67rem;*/
+}
+.taille_picto {
+    font-size: 1.67rem;
 }
