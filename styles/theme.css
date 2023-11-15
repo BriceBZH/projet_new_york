@@ -89,19 +89,19 @@ em {
 }
 .drapeau {
     float:right;
-    /*margin-left: 1em;*/
+    margin-left: 1em;
 }
 .statue {
     float:left;
-    /*margin-right: 1em;*/
+    margin-right: 1em;
 }
 .bridge {
     float:right;
-    /*margin-left: 1em;*/
+    margin-left: 1em;
 }
 .taxi {
     float:left;
-    /*margin-right: 1em;*/
+    margin-right: 1em;
 }
 /*********** RESEAUX SOCIAUX ***********/
 .fa-brands {
